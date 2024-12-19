@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>مخاطر التدخين</title>
+    <style>
+        /* إعدادات الألوان والخطوط */
+        :root {
+            --primary-color: #b71c1c;
+            --secondary-color: #f44336;
+            --background-color: #fff5f5;
+            --text-color: #333;
+            --font-family: 'Cairo', sans-serif;
+        }
+
+        body {
+            font-family: var(--font-family);
+            margin: 0;
+            padding: 0;
+            background-color: var(--background-color);
+            color: var(--text-color);
+            line-height: 1.8;
+            direction: rtl; /* لجعل النصوص تبدأ من اليمين */
+        }
+
+        header {
+            text-align: center;
+            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+            color: white;
+            padding: 30px 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+
+        header p {
+            margin: 10px 0 0;
+            font-size: 1.2rem;
+        }
+
+        nav {
+            background-color: var(--primary-color);
+            border-radius: 20px;
+            width: 90%;
+            margin: 10px auto;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 10px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            gap: 10px;
+        }
+
+        nav ul li {
+            flex: 1;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            font-size: 1rem;
+            padding: 10px 15px;
+            border-radius: 10px;
+            transition: all 0.3s ease;
+            text-align: center;
+            display: inline-block;
+        }
+
+        nav ul li a:hover {
+            background-color: var(--secondary-color);
+            transform: scale(1.1);
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        section {
+            margin-bottom: 30px;
+            padding: 15px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        section img {
+            width: 100%;
+            border-radius: 10px;
+            margin-bottom: 15px;
+        }
+
+        section h2 {
+            color: var(--primary-color);
+            font-size: 1.8rem;
+            margin-bottom: 15px;
+        }
+
+        section ul {
+            margin: 15px 0;
+            padding-right: 20px;
+        }
+
+        section li {
+            margin-bottom: 10px;
+        }
+
+        footer {
+            text-align: center;
+            background-color: var(--primary-color);
+            color: white;
+            padding: 10px;
+            margin-top: 20px;
+        }
+
+        a {
+            color: var(--primary-color);
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>مخاطر التدخين</h1>
+        <p>التدخين يهدد صحتك وصحة من حولك</p>
+    </header>
+    <nav>
+        <nav>
+            <ul>
+                <li><a href="index.html">الصفحة الرئيسية</a></li>
+                <li><a href="dangers.html">أضرار التدخين</a></li>
+                <li><a href="quit.html">طرق الاقلاع</a></li>
+                <li><a href="contact.html">تواصل معنا</a></li>
+            </ul>
+        </nav>
+    </nav>
+    <main>
+        <section id="health">
+            <img src="https://via.placeholder.com/800x400?text=%D8%A7%D9%84%D8%A3%D9%85%D8%B1%D8%A7%D8%B6+%D8%A7%D9%84%D8%AA%D9%86%D9%81%D8%B3%D9%8A%D8%A9" alt="الأمراض التنفسية">
+            <h2>الأمراض التنفسية</h2>
+            <ul>
+                <li>سرطان الرئة: 90% من الحالات بسبب التدخين.</li>
+                <li>الأمراض الانسدادية المزمنة للرئة (COPD).</li>
+                <li>زيادة التعرض لنزلات البرد والتهابات الجهاز التنفسي.</li>
+            </ul>
+        </section>
+        <section id="heart">
+            <img src="https://via.placeholder.com/800x400?text=%D8%A3%D9%85%D8%B1%D8%A7%D8%B6+%D8%A7%D9%84%D9%82%D9%84%D8%A8" alt="أمراض القلب">
+            <h2>أمراض القلب والأوعية الدموية</h2>
+            <ul>
+                <li>النوبات القلبية والسكتات الدماغية.</li>
+                <li>تصلب الشرايين وضعف الدورة الدموية.</li>
+                <li>مرض الشريان التاجي.</li>
+            </ul>
+        </section>
+        <section id="cancer">
+            <img src="https://via.placeholder.com/800x400?text=%D8%A7%D9%84%D8%A3%D9%85%D8%B1%D8%A7%D8%B6+%D8%A7%D9%84%D8%B3%D8%B1%D8%B7%D8%A7%D9%86%D9%8A%D8%A9" alt="الأمراض السرطانية">
+            <h2>الأمراض السرطانية</h2>
+            <ul>
+                <li>سرطان الفم والحنجرة.</li>
+                <li>سرطان المثانة والكلى.</li>
+                <li>سرطان البنكرياس والمعدة.</li>
+            </ul>
+        </section>
+        <section id="social">
+            <img src="https://via.placeholder.com/800x400?text=%D8%A7%D9%84%D8%AA%D8%A3%D8%AB%D9%8A%D8%B1%D8%A7%D8%AA+%D8%A7%D9%84%D8%A7%D8%AC%D8%AA%D9%85%D8%A7%D8%B9%D9%8A%D8%A9" alt="التأثيرات الاجتماعية">
+            <h2>التأثيرات الاجتماعية والبيئية</h2>
+            <ul>
+                <li>رائحة كريهة وتأثير سلبي على العلاقات الاجتماعية.</li>
+                <li>تلوث الهواء والنفايات الناتجة عن أعقاب السجائر.</li>
+                <li>التأثير على غير المدخنين (التدخين السلبي).</li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>© 2024 - موقع مكافحة التدخين. جميع الحقوق محفوظة.</p>
+    </footer>
+</body>
+</html>

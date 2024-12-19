@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>موقع مكافحة التدخين</title>
+    <style>
+        /* إعدادات الألوان والخطوط */
+        :root {
+            --primary-color: #00796b;
+            --secondary-color: #004d40;
+            --background-color: #e0f2f1;
+            --text-color: #333;
+            --font-family: 'Cairo', sans-serif;
+        }
+
+        body {
+            font-family: var(--font-family);
+            margin: 0;
+            padding: 0;
+            background-color: var(--background-color);
+            color: var(--text-color);
+            line-height: 1.8;
+            direction: rtl; /* لجعل المحتوى يبدأ من اليمين إلى اليسار */
+        }
+
+        header {
+            text-align: center;
+            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+            color: white;
+            padding: 30px 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+
+        header p {
+            margin: 10px 0 0;
+            font-size: 1.2rem;
+        }
+
+        nav {
+            background-color: var(--primary-color);
+            border-radius: 20px;
+            width: 90%;
+            margin: 10px auto;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 10px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            gap: 10px;
+        }
+
+        nav ul li {
+            flex: 1;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            font-size: 1rem;
+            padding: 10px 15px;
+            border-radius: 10px;
+            transition: all 0.3s ease;
+            text-align: center;
+            display: inline-block;
+        }
+
+        nav ul li a:hover {
+            background-color: var(--secondary-color);
+            transform: scale(1.1);
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        section {
+            margin-bottom: 30px;
+            padding: 15px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        section img {
+            width: 100%;
+            border-radius: 10px;
+            margin-bottom: 15px;
+        }
+
+        section h2 {
+            color: var(--primary-color);
+            font-size: 1.5rem;
+            margin-bottom: 15px;
+        }
+
+        section ul,
+        section ol {
+            margin: 15px 0;
+            padding-right: 20px;
+        }
+
+        section li {
+            margin-bottom: 10px;
+        }
+
+        footer {
+            text-align: center;
+            background-color: var(--primary-color);
+            color: white;
+            padding: 10px;
+            margin-top: 20px;
+        }
+
+        a {
+            color: var(--primary-color);
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>موقع مكافحة التدخين</h1>
+        <p>معًا نحو حياة صحية خالية من التدخين</p>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">الصفحة الرئيسية</a></li>
+            <li><a href="dangers.html">أضرار التدخين</a></li>
+            <li><a href="quit.html">طرق الاقلاع</a></li>
+            <li><a href="contact.html">تواصل معنا</a></li>
+        </ul>
+    </nav>
+    <main>
+        <img src="https://via.placeholder.com/1200x400?text=%D9%85%D8%AE%D8%A7%D8%B7%D8%B1+%D8%A7%D9%84%D8%AA%D8%AF%D8%AE%D9%8A%D9%86" alt="صورة" style="width: 100%; border-radius: 10px; margin-bottom: 20px;">
+    </main>
+    <footer>
+        <h2>مرحبًا بك في موقعنا!</h2>
+        <p>اكتشف معلومات مفيدة وطرق مبتكرة للإقلاع عن التدخين من خلال موقعنا البسيط والمميز .</p>
+    </footer>
+</body>
+</html>
